@@ -143,19 +143,8 @@ Sardi is **meant to be changed by the users**. You can use scripts to change the
 
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
-Some Examples from Linux Mint 18!
 
-![Screenshots](http://i.imgur.com/T9gN544.jpg)
-
-
-This is the original colour of Sardi Flexible with Minty-transparent theme.
-
-
-![Screenshots](http://i.imgur.com/iS6zFFU.jpg)
-
-Sardi Arc
-
-![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
+![Screenshots](http://i.imgur.com/ek2tTsb.png)
 
 
 More documentation on http://erikdubois.be/category/sardi-icons/
