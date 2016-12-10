@@ -6,25 +6,15 @@ Let us first take a screenshot of the initial look of Linux Mint 18 Mate after a
 ![Screenshots](http://i.imgur.com/hzDokcd.png)
 
 
-Ofcourse you can change the theme.
-
-I like the mint-y-dark theme which I will use in the later screenshots.
-
-
-![Screenshots](http://i.imgur.com/9AMgBM3.png)
-
 ##Update your system.
 
 Choose if you like to download from local servers or not.
 
 ##Change the theme
 
-Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
+Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. 
 
-    sudo apt install screenfetch
-
-
-![Screenshots](http://i.imgur.com/YO66kdK.png)
+![Screenshots](http://i.imgur.com/9AMgBM3.png)
 
 ##Download this github
 
@@ -32,40 +22,8 @@ You can run any of these scripts by downloading the zip file from github. Go to 
 Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
 
 
-# Extra info on Youtube
 
-Content Playlist of 100+ short movies to make your desktop eye-cany.
-Sardi icon set playing its part therein.
-
-https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
-
-About 100+ short movies to completely change your desktop experience for linux.
-They are made on Linux Mint 18 and still apply on 18.1.
-Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, super ultra flat numix remix icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
-
-Customisation scritps : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
-
-Sardi icons: https://sourceforge.net/projects/sardi/files/
-
-Surfn icons : https://github.com/erikdubois/Surfn
-
-Aureola conky : https://github.com/erikdubois/Aureola
-
-This was the endresult after executing all the movies.
-
-
-![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
-
-
-
-Check out the movies by clicking here
-
-<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
-<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
-</a> 
-
-
-#1 Kernel, cinnamon and nvidia
+#1 Kernel and nvidia
 
 First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
 
@@ -86,22 +44,6 @@ Type in the terminal
 
 
 ![Screenshots](http://i.imgur.com/3CUtC1X.png)
-
-
-<b>Cinnamon</b>
-
-I never install this on my working computer. You have been warned.
-
-The very latest cinnamon version can be installed on your system.
-
-There is no script included for this. You will have to do it manually in the terminal.
-
-The script will add a resource and upgrade cinnamon.
-
-	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
-	# sudo apt-get update 
-	# sudo apt-get install cinnamon -y
-    # sudo apt-get upgrade cinnamon -y
 
 
 
