@@ -223,7 +223,7 @@ Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/them
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
-![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
+![Screenshots](http://i.imgur.com/44Uis5M.png)
 
 
 # F  A  Q
