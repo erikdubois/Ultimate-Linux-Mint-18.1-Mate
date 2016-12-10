@@ -1,14 +1,9 @@
-# Ultimate Linux Mint 18 Mate
-
-Sardi v 7.4.3 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
-
-![Screenshots](http://i.imgur.com/gfPEwdG.jpg)
-
+# Ultimate Linux Mint 18.1 Mate
 
 Let us first take a screenshot of the initial look of Linux Mint 18 Mate after a clean install.
 
 
-![Screenshots](http://i.imgur.com/KRwzZ9F.png)
+![Screenshots](http://i.imgur.com/hzDokcd.png)
 
 
 Ofcourse you can change the theme.
@@ -17,6 +12,11 @@ I like the mint-y-dark theme which I will use in the later screenshots.
 
 
 ![Screenshots](http://i.imgur.com/uiSUzGt.png)
+
+
+Sardi version 8+ at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+
+
 
 
 This is my way of working when installing a new operating system.
