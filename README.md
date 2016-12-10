@@ -151,8 +151,7 @@ There is also a collection of **Sardi Extra** icons at
 
 https://github.com/erikdubois/Sardi-Extra
 
-These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas, scripts that are included in Sardi icons.
-
+These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
 
 ![Screenshots](http://i.imgur.com/oOFJo77.png)
