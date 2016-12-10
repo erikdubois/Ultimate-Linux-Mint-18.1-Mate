@@ -43,7 +43,7 @@ Type in the terminal
 	- ./update-to-the-last-stable-4.x.x-latest.sh 
 
 
-![Screenshots](http://i.imgur.com/3CUtC1X.png)
+![Screenshots](http://i.imgur.com/5tbSSto.png)
 
 
 
