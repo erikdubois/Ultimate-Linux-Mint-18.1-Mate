@@ -1,6 +1,6 @@
 # Ultimate Linux Mint 18.1 Mate
 
-Let us first take a screenshot of the initial look of Linux Mint 18 Mate after a clean install.
+Let us first take a screenshot of the initial look of Linux Mint 18.1 Mate after a clean install.
 
 
 ![Screenshots](http://i.imgur.com/hzDokcd.png)
@@ -19,7 +19,11 @@ Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will
 ##Download this github
 
 You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
-Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder or 
+
+    git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Mate
+
+in the terminal.
 
 
 
@@ -142,6 +146,13 @@ Sardi is **meant to be changed by the users**. You can use scripts to change the
     Sardi Mono Numix Colora has such a colouring script.
 
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
+
+There is also a collection of **Sardi Extra** icons at 
+
+https://github.com/erikdubois/Sardi-Extra
+
+These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas, scripts that are included in Sardi icons.
+
 
 
 ![Screenshots](http://i.imgur.com/oOFJo77.png)
