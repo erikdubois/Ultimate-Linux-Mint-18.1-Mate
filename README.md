@@ -220,10 +220,15 @@ Select them with the themes manager.
 
 Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
+
 Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
+Arc based
+![Screenshots](http://i.imgur.com/ECZC7VE.png)
 
+Mint-Y based
 ![Screenshots](http://i.imgur.com/44Uis5M.png)
+
 
 
 # F  A  Q
