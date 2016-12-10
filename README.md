@@ -184,19 +184,17 @@ More information can be found here : http://erikdubois.be/category/linux/aureola
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
 
-ZOOM IN to see that the colours and the look change in the terminal.
-Everytime a surprise. Because of the 'random'. Read on. 
-
-![Screenshots](http://i.imgur.com/NUc55XO.png)
-
 ./install-zsh-vx.sh
 
 Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
 
 <b>Latest script will take care of that automatically.</b>
 
-Each time you start an other terminal you will get a different theme. It will surprise you every time.
+Each time you start an other terminal you will get a different theme. It will surprise you every time. After installation you should type this in a terminal 
 
+    sudo chsh your-username -s /bin/zsh
+
+Log off or reboot to change the shell and see your zsh.
 
 
 5. Plank
