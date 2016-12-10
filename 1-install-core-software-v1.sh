@@ -21,6 +21,7 @@ sudo apt-get install -y terminator thunar vlc vnstat
 #operating specific software
 
 # sudo apt-get install nemo-compare -y
+sudo apt-get install -y mate-tweak
 
 ###############################################################################################
 
