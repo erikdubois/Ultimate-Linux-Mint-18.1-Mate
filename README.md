@@ -144,7 +144,7 @@ Sardi is **meant to be changed by the users**. You can use scripts to change the
 Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
 
 
-![Screenshots](http://i.imgur.com/ek2tTsb.png)
+![Screenshots](http://i.imgur.com/oOFJo77.png)
 
 
 More documentation on http://erikdubois.be/category/sardi-icons/
@@ -157,15 +157,10 @@ For ease of installation I use the script
 
 	- icons-surfn-vx.sh
 
-Some Examples from Linux Mint 18!
 
 
+![Screenshots](http://i.imgur.com/ugFkvH7.png)
 
-![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/EocrQ70.png)
 
 
 More info can be found here : https://github.com/erikdubois/Surfn
@@ -178,15 +173,8 @@ This is an exercise in writing conky configurations in lua syntax.
 
 At https://github.com/erikdubois/Aureola you can check out these conky's.
 
-Some Examples from Linux Mint 18!
 
-![Screenshots](http://i.imgur.com/y92Jrp4.png)
-
-
-![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
-
-
-![Screenshots](http://i.imgur.com/VgD9SqN.png)
+![Screenshots](http://i.imgur.com/ek2tTsb.png)
 
 
 More information can be found here : http://erikdubois.be/category/linux/aureola/
