@@ -1,0 +1,14 @@
+[custom2]
+action='variety -p'
+binding='<Alt>p'
+name='variety -p'
+
+[custom1]
+action='variety -n'
+binding='<Alt>n'
+name='variety -n'
+
+[custom0]
+action='variety -t'
+binding='<Alt>t'
+name='variety -t'
