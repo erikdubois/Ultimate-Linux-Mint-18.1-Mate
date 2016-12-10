@@ -11,64 +11,103 @@ Ofcourse you can change the theme.
 I like the mint-y-dark theme which I will use in the later screenshots.
 
 
-![Screenshots](http://i.imgur.com/uiSUzGt.png)
+![Screenshots](http://i.imgur.com/9AMgBM3.png)
+
+##Update your system.
+
+Choose if you like to download from local servers or not.
+
+##Change the theme
+
+Ofcourse you can change the theme. I like the **mint-y-dark** theme which I will use in the later screenshots. I installed screenfetch to show you some technical information.
+
+    sudo apt install screenfetch
 
 
-Sardi version 8+ at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
+![Screenshots](http://i.imgur.com/YO66kdK.png)
+
+##Download this github
+
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+
+
+# Extra info on Youtube
+
+Content Playlist of 100+ short movies to make your desktop eye-cany.
+Sardi icon set playing its part therein.
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB
+
+About 100+ short movies to completely change your desktop experience for linux.
+They are made on Linux Mint 18 and still apply on 18.1.
+Updating, kernel installation, applications installation, variety settings, firefox and google search, lastpass and xmarks, sardi icon theme, fixing icons that never change, theme installation of vertex and arc, applets, dropbox, zsh, printer, aureola conky, super ultra flat numix remix icons, plank, personal settings of cinnamon, gimp scripts added, dropbox fix, keyboard fix for music, ...
+
+Customisation scritps : https://github.com/erikdubois/Ultimate-Linux-Mint-18.1-Cinnamon
+
+Sardi icons: https://sourceforge.net/projects/sardi/files/
+
+Surfn icons : https://github.com/erikdubois/Surfn
+
+Aureola conky : https://github.com/erikdubois/Aureola
+
+This was the endresult after executing all the movies.
+
+
+![Screenshots](http://i.imgur.com/gKjMfHp.jpg)
 
 
 
+Check out the movies by clicking here
 
-This is my way of working when installing a new operating system.
-
-First upgrade kernel, nvidia and caja (if possible).
-
-If everything is still working, we can install the software and start customizing the system.
+<a target="_blank" href="https://www.youtube.com/playlist?list=PLlloYVGq5pS43s05ltH9xh7paFteoT7UB">
+<img style="max-width:100%;" src="http://i.imgur.com/UMpseyy.png">
+</a> 
 
 
-#1 Kernel and nvidia
+#1 Kernel, cinnamon and nvidia
+
+First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
+
+If everything is still working we can install the software and start customizing the system.
 
 As described at http://erikdubois.be/ I try to get the latest of everything. This attitude tends to break things. You have been warned. But the best way to learn about linux.
-
-The first time I suggest you follow the steps in the article.
 
 I have written a script to automate my installations. 
 
 <b>KERNEL</b>
 
-You have a choice. 
-
-	- kernel 3.x
-	- kernel 4.x
-
-I choose to install the latter.
-
-	- ./update-to-the-last-stable-4.x-kernel-vx.sh 
-
 Do not forget to type "./" in front of the name.
-
-You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to Extract here.
-Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
 
 Type in the terminal
 
 	
-	- ./update-to-the-last-stable-4.x-kernel-vx.sh 
+	- ./update-to-the-last-stable-4.x.x-latest.sh 
 
 
-![Screenshots](http://i.imgur.com/8LzKIxg.png)
+![Screenshots](http://i.imgur.com/3CUtC1X.png)
 
 
+<b>Cinnamon</b>
+
+I never install this on my working computer. You have been warned.
+
+The very latest cinnamon version can be installed on your system.
+
+There is no script included for this. You will have to do it manually in the terminal.
+
+The script will add a resource and upgrade cinnamon.
+
+	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
+	# sudo apt-get update 
+	# sudo apt-get install cinnamon -y
+    # sudo apt-get upgrade cinnamon -y
 
 
 
 <b>Nvidia</b>
 
-
-
-The last months I have no issues with the drivers coming from Linux. So I do NOT install the Nvidia drivers.
-
-HAVE NOT TESTED THIS FOR A WHILE
+The last months/years I have no issues with the drivers coming from Linux (i.e.nouveau). So I do NOT install the Nvidia drivers.
 
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
 
@@ -82,53 +121,36 @@ Try typing this in the terminal
 
 If for some reason you want other sources for your drivers then check out these two.
 
+* https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+
 Copy/paste these lines in a terminal to get the latest nvidia drivers.
 
 	# sudo add-apt-repository -y ppa:graphics-drivers/ppa
 	# sudo apt-get update
 	# sudo apt-get install nvidia-340 -y (for example)
 
-Check on Nvidia.com which driver you should use.
+* http://nvidia.com
+
+Check on Nvidia.com which driver you should use and install it from there.
 
 Wait for the installation and reboot.
-
-
-<b>Tips regarding graphics experience of the end-user</b>
-
-
-
-Regarding graphics I should mention a specific program <b>mate-tweak</b> that was also installed if you ran the installation script.
-
-There you can add the icons on your desktop but much more important is changing your <b>windows manager</b>!
-Which is actually a big deal.
-
-You can choose between 7 window manager but actually between three big names and their options
-
-	- marco
-	- metacity
-	- compiz
-
-
-![Screenshots](http://i.imgur.com/kuUYQFY.png)
-
-
-Compiz has also a configuration application called Compiz Config Settings Manager. 
-That is installed during installation.
-
-
-
-![Screenshots](http://i.imgur.com/iHabmnk.png)
 
 
 
 
 #2 Software installation
 
-We start the installation script of all the needed software in the same way as above. 
+We start the installation scripts of all the needed software via the terminal. 
 
-	- ./install-all-needed-software-at-once-vx.sh
+	- ./1-install-core-software-vx.sh
+    - ./2-install-extra-software-vx.sh
+    - ./3-install-themes-icons-cursors-plank.sh
 
 Do not forget to type "./" in front of the name.
+
+
+These three scripts will point to some of the other scripts in the folder. So keep them together.
+
 
 The best of them 
 
@@ -142,12 +164,11 @@ The best of them
 	Google Chrome
 	...
 
+There are other scripts for applications I sometimes need but will not be installed as of yet.
 
 
-[![Ultimate Linux Mint Update](http://i.imgur.com/qmOOZ8G.jpg)](https://www.youtube.com/watch?v=5xHy96K14Dk "Ultimate Linux Mint Update - Click to Watch!")
 
-
-#3 Extra's
+#3 Fun stuff
 
 
 1. Sardi Icon Theme
@@ -159,157 +180,88 @@ http://sourceforge.net/projects/sardi/
 
 For ease of installation I use the script
 
+
 	- icons-sardi-vx.sh
 
 
+Follow the collection on google+ : https://plus.google.com/u/0/collection/YFP-LB
 
-More documentation on http://erikdubois.be
-
-The Sardi icons are best followed on google +.The latest developments will be shown there.
-
-[Sardi collection](https://plus.google.com/u/0/collection/YFP-LB)
+The most recent pictures can be found there.
 
 
-Screenshots for reference to the older versions of Sardi.
+Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
 
 
-![Screenshots](http://i.imgur.com/8byVgu9.jpg)
+    Sardi Colora has such a colouring script.
+    Sardi Flat Colora has such a colouring script.
+    Sardi Flexible has such a colouring script.
+    Sardi Ghost Flexible has such a colouring script.
+    Sardi Mono Colora has such a colouring script.
+    Sardi Mono Numix Colora has such a colouring script.
+
+Colour codes can be figured out locally with gpick or online via http://www.colorpicker.com/.
+
+Some Examples from Linux Mint 18!
+
+![Screenshots](http://i.imgur.com/T9gN544.jpg)
 
 
-![Screenshots](http://i.imgur.com/ZDeo5NS.jpg) 
+This is the original colour of Sardi Flexible with Minty-transparent theme.
 
 
-![Screenshots](http://i.imgur.com/LnmI6aT.jpg) 
+![Screenshots](http://i.imgur.com/iS6zFFU.jpg)
+
+Sardi Arc
+
+![Screenshots](http://i.imgur.com/IeZFWvs.jpg)
 
 
-![Screenshots](http://i.imgur.com/QPsbJ1D.jpg) 
-
-Sardi Flexible made red with script - 5 sec max
-
-![Screenshots](http://i.imgur.com/T4RqPVa.jpg) 
+More documentation on http://erikdubois.be/category/sardi-icons/
 
 
-![Screenshots](http://i.imgur.com/MymbJOH.jpg)
-
-
-![Screenshots](http://i.imgur.com/iHsKMvG.jpg)
-
-
-![Screenshots](http://i.imgur.com/Kqo5pud.jpg)
-
-
-
-
-2. Super Ultra Flat Numix Remix
+2. Surfn icons
 --------------------------------- 
-
-This icon theme is based on an older one i.e. yltra flat also on github.
-
-This is an exercise in changing the directories from scalable/... to 22x22/...
-
-Super Ultra Flat Numix Remix will be updated not the Yltra Flat icon set.
-
 
 For ease of installation I use the script
 
-	- icons-super-ultra-flat-numix-vx.sh
+	- icons-surfn-vx.sh
 
-Also the older icon set can be installed via
-
-	-icons-yltra-flat-vx.sh
+Some Examples from Linux Mint 18!
 
 
 
 ![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
 
 
-![Screenshots](http://i.imgur.com/VmdJNk3.jpg)
 
+![Screenshots](http://i.imgur.com/EocrQ70.png)
+
+
+More info can be found here : https://github.com/erikdubois/Surfn
 
 
 3. Aureola Conky
 ---------------
 
-This is an exercise in writing conky configurations in lua syntax. Starting version 1.10 and later versions the new config file uses Lua syntax.
-
-Some of the aurora conky's have been ported to the new lua syntax.
+This is an exercise in writing conky configurations in lua syntax.
 
 At https://github.com/erikdubois/Aureola you can check out these conky's.
+
+Some Examples from Linux Mint 18!
+
+![Screenshots](http://i.imgur.com/y92Jrp4.png)
 
 
 ![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
 
 
-![Screenshots](http://i.imgur.com/K5yYqEa.png)
+![Screenshots](http://i.imgur.com/VgD9SqN.png)
 
 
-
-![Screenshots](http://i.imgur.com/9CxuMRZ.png)
-
-
-![Screenshots](http://i.imgur.com/tNWsDsN.jpg)
+More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-More information about conky:
-
-https://github.com/brndnmtthws/conky/wiki/Configuration-Settings
-
-
-4. Aurora Conky
----------------
-	
-
-Aurora is a collection of conky's I like. These have the old (non-lua) syntax for version 1.9 and earliers. 
-
-Download it from http://sourceforge.net/projects/auroraconkytheme/.
-
-Installation is described at 
-
-http://erikdubois.be/category/linux/aurora-conky/
-
-In this downloadfolder you will find an <b>installationscript</b> as well i.e. Auto_LinuxMint_Rebecca_mate_aurora.sh
-
-
-But basically unpack the zip file. Make the hidden folder .conky (if it does not exist yet) and place the folder aurora in there.
-
-Install conky-manager that will make life easy.
-
-	sudo add-apt-repository -y ppa:teejee2008/ppa
-	sudo apt-get update
-	sudo apt-get install conky-manager
-
-Start up conky-manager and choose the conky to your liking.
-
-
-
-You should arrive at something similar depending on theme and icons choices: 
-
-
-![Screenshots](http://i.imgur.com/YAyQOjw.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/Yyfslr1.jpg)
-
-
-
-![Screenshots](http://i.imgur.com/B5cPnMK.jpg)
-
-
-
-Then you take the script apart and you write your own code.
-
-This github script is explained more in depth on my website.
-
-http://erikdubois.be/
-
-
-More information about conky
-
-https://github.com/brndnmtthws/conky/wiki/Configuration-Settings
-
-
-5. ZSH and Oh-my-sh
+4. ZSH and Oh-my-sh
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
 
@@ -331,106 +283,36 @@ Each time you start an other terminal you will get a different theme. It will su
 [![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
 
 
-6. Plank
+
+
+
+5. Plank
 ------------------
-Start plank from the menu. <b>CTRL + Right-click</b> on the plank and choose preferences
+Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and choose preferences
 and put in on top. I choose a transparent theme.
-
-But there are more themes out there if you want.
-
-If you want to autostart this everytime.
-Type in the menu " startup". Start 'startup applications'.
-
-Add application and choose plank or do it the old way and point to /usr/bin/plank.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
 
-A tutorial has been written here : 
 
-http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-autostart/
-
+Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
 
 
 
-7. Folder caja-scripts
----------------------------
+6. Themes
+------------------
 
-Caja (filemanager or explorer in windows) works with extensions. In cinnamon, nemo is the file explorer.
+When you run the scripts, you will have many many themes in this folder
 
-	Edit/Preferences/extensions
+	.themes
 
-In the future I suppose it will be possible to add extensions. At this point in time not so clear how to do that.
+Select them with the themes manager.
 
-But if you have scripts of your own that you are using, you can always put them in the folder
+Read here for more info on ARC BASED THEMES : http://erikdubois.be/category/themes/arc-based-themes/
 
-Move your scripts in the somewhat hidden folder and you will see them in the context-menu later. 
-
-	~/.config/caja/scripts
-
-![Screenshots](http://i.imgur.com/ZldwBtO.png)
-
-Also check out the caja-actions configuration tool.
-
-![Screenshots](http://i.imgur.com/V1HVV0z.png)
-
-If you like to change the file manager, you can choose to open folders with thunar if installed. You can select it in the preferred applications. Or by the nemo file manager from cinnamon if you like. Just install it.
-
-![Screenshots](http://i.imgur.com/xGTY1b3.png)
-
-Thunar has its own way to use custom actions for your personal scripting.
+Read here for more info on MINT-Y BASED THEMES : http://erikdubois.be/category/themes/mint-y-based-themes/
 
 
-
-
-
-8. Mscore fonts
---------------------
-If you miss the microsoft fonts ... Verdana, Courrier, Comic, Arial, ...
-Use TAB and ENTER to install it.
-
-sudo apt-get install ttf-mscorefonts-installer -y
-
-Use TAB and ARROWS to navigate and ENTER to conclude.
-
-
-
-
-
-9. The matrix
-----------------
-
-Matrix (screen with green letters as seen in the movie)
-
-sudo apt-get install cmatrix
-
-Try 
-
-	cmatrix -b
-
-![Screenshots](http://i.imgur.com/oKGiyzP.jpg)
-
-
-
-10.Shutter
------------
-
-Shutter is a program to make screenshots to post on websites.
-There is also a very handy export function to different image hosting sites like imgur.com
-
-In the program keyboard you can add a custom shortcut to take a picture like 
-
-printscreen or prtsc
-
-This should be the code to take a picture that will be named like this : 
-
-screenshot_25_01_2016_18:32:46.jpg
-
-
-	shutter -f -e -o '~/Pictures/screenshot_%d_%m_%Y_%T.jpg'
-
-
-![Screenshots](http://i.imgur.com/gZFHwzG.png)
-
+![Screenshots](http://i.imgur.com/R1UBRl6.jpg)
 
 
 # F  A  Q
@@ -464,6 +346,5 @@ You can do whatever <b>Y O U</b> want.
 
 Share the knowledge.
 ------------------------------------
-
 
 
