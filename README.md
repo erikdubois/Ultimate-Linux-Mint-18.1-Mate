@@ -25,7 +25,7 @@ Go inside the folder and right-click <b>in a blank space</b> to go to the termin
 
 #1 Kernel and nvidia
 
-First we upgrade the kernel, nvidia and cinnamon/nemo if you want to.
+First we upgrade the kernel and/or nvidia if you want to.
 
 If everything is still working we can install the software and start customizing the system.
 
