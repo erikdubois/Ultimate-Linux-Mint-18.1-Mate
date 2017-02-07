@@ -1,23 +1,29 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
-
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-sudo apt-get install dconf-cli -y
-
-dconf dump /org/cinnamon/desktop/keybindings/ > all-cinnamon-desktop-keybindings.dconf
-
 echo "################################################################"
-echo "###################    shortcuts dumped   ######################"
+echo "#########          gimp settings                ################"
 echo "################################################################"
 
-sleep 1
+
+
+echo "Copy/pasting gimp scripts and themes"
+
+cp settings/gimp/scripts/* ~/.gimp-2.8/scripts/
+cp -r settings/gimp/themes/* ~/.gimp-2.8/themes/
+
+
+
+echo "################################################################"
+echo "#########          gimp settings installed      ################"
+echo "################################################################"

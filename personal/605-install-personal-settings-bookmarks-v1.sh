@@ -1,24 +1,25 @@
 #!/bin/bash
-#
+set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
 ##################################################################################################################
-
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-sudo apt-get install dconf-cli -y
-
-dconf load /org/cinnamon/desktop/keybindings/ < all-cinnamon-desktop-keybindings.dconf
 
 echo "################################################################"
-echo "###################    shortcuts loaded   ######################"
+echo "#########          Installing bookmarks         ################"
 echo "################################################################"
 
-sleep 1
 
+cp settings/root/.gtk-bookmarks ~/
+
+
+echo "################################################################"
+echo "#########       personal settings installed     ################"
+echo "################################################################"
