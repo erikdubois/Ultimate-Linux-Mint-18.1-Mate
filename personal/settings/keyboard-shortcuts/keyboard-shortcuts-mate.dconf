@@ -1,99 +1,89 @@
-[custom23]
-binding='<Alt>Down'
-action='variety --resume'
-name='variety --resume'
-
-[custom11]
-binding='<Primary><Alt>b'
-action='nemo'
-name='nemo'
-
-[custom13]
-binding='<Primary><Alt>i'
-action='inkscape'
-name='inkscape'
-
-[custom30]
-binding='<Primary><Alt>f'
-action='firefox'
-name='firefox'
-
 [custom0]
-binding='<Primary><Shift>Escape'
 action='gnome-system-monitor'
+binding='<Primary><Shift>Escape'
 name='gnome-system-monitor'
 
+[custom1]
+action='variety -t'
+binding='<Alt>t'
+name='variety trash wallpaper'
+
 [custom2]
-binding='<Alt>n'
 action='variety -n'
+binding='<Alt>n'
 name='next wallpaper'
 
-[custom20]
-binding='<Alt>Right'
-action='variety -n'
-name='variety -n'
-
-[custom19]
-binding='<Primary>Print'
-action='gnome-screenshot -i'
-name='gnome-screenshot interactive'
+[custom3]
+action='variety -p'
+binding='<Alt>p'
+name='previous wallpaper'
 
 [custom4]
-binding='<Alt>f'
 action='variety -f'
+binding='<Alt>f'
 name='wallpaper favorite'
 
-[custom22]
-binding='<Alt>Up'
-action='variety --pause'
-name='variety --pause'
-
-[custom6]
-binding='<Shift><Super>Return'
+[custom11]
 action='nemo'
+binding='<Primary><Alt>b'
 name='nemo'
 
 [custom12]
-binding='<Primary><Alt>w'
 action='subl'
+binding='<Primary><Alt>w'
 name='sublime text'
 
-[custom14]
-binding='<Primary><Alt>g'
-action='gimp'
-name='gimp'
+[custom20]
+action='variety -n'
+binding='<Alt>Right'
+name='variety -n'
 
-[custom31]
-binding='<Primary><Alt>c'
-action='catfish'
-name='catfish'
-
-[custom1]
-binding='<Alt>t'
-action='variety -t'
-name='variety trash wallpaper'
-
-[custom16]
-binding='<Primary><Alt>e'
-action='evolution'
-name='evolution'
-
-[custom18]
-binding='<Primary><Alt>s'
-action='spotify'
-name='spotify'
-
-[custom3]
-binding='<Alt>p'
-action='variety -p'
-name='previous wallpaper'
+[custom13]
+action='inkscape'
+binding='<Primary><Alt>i'
+name='inkscape'
 
 [custom21]
-binding='<Alt>Left'
 action='variety -p'
+binding='<Alt>Left'
 name='variety previous'
 
-[custom5]
-binding='<Super>Return'
-action='gnome-terminal'
-name='gnome-terminal'
+[custom14]
+action='gimp'
+binding='<Primary><Alt>g'
+name='gimp'
+
+[custom22]
+action='variety --pause'
+binding='<Alt>Up'
+name='variety --pause'
+
+[custom23]
+action='variety --resume'
+binding='<Alt>Down'
+name='variety --resume'
+
+[custom30]
+action='firefox'
+binding='<Primary><Alt>f'
+name='firefox'
+
+[custom16]
+action='evolution'
+binding='<Primary><Alt>e'
+name='evolution'
+
+[custom31]
+action='catfish'
+binding='<Primary><Alt>c'
+name='catfish'
+
+[custom18]
+action='spotify'
+binding='<Primary><Alt>s'
+name='spotify'
+
+[custom19]
+action='gnome-screenshot -i'
+binding='<Primary>Print'
+name='gnome-screenshot interactive'
