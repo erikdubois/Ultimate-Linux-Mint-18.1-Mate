@@ -12,7 +12,7 @@
 ##################################################################################################################
 
 
-sudo apt install -y mate-tweak
+sudo apt install -y mate-tweak gnome-screenshot
 
 
 

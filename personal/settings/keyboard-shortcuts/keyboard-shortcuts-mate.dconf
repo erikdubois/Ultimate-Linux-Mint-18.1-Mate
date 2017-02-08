@@ -3,35 +3,15 @@ binding='<Alt>Down'
 action='variety --resume'
 name='variety --resume'
 
-[custom7]
-binding='<Super>F1'
-action='firefox --browser'
-name='firefox'
-
 [custom11]
 binding='<Primary><Alt>b'
 action='nemo'
 name='nemo'
 
-[custom25]
-binding='<Super>F5'
-action='meld'
-name='meld'
-
-[custom9]
-binding='<Super>F4'
-action='gimp'
-name='gimp'
-
 [custom13]
 binding='<Primary><Alt>i'
 action='inkscape'
 name='inkscape'
-
-[custom27]
-binding='<Super>F2'
-action='subl'
-name='sublime-text'
 
 [custom30]
 binding='<Primary><Alt>f'
@@ -42,21 +22,6 @@ name='firefox'
 binding='<Primary><Shift>Escape'
 action='gnome-system-monitor'
 name='gnome-system-monitor'
-
-[custom29]
-binding='<Super>F10'
-action='spotify'
-name='spotify'
-
-[custom15]
-binding='<Super>F9'
-action='evolution'
-name='evolution'
-
-[custom17]
-binding='<Super>F10'
-action='spotify'
-name='spotify'
 
 [custom2]
 binding='<Alt>n'
@@ -88,40 +53,15 @@ binding='<Shift><Super>Return'
 action='nemo'
 name='nemo'
 
-[custom10]
-binding='<Super>F3'
-action='inkscape'
-name='inkscape'
-
-[custom24]
-binding='<Super>Return'
-action='gnome-terminal'
-name='gnome-terminal'
-
-[custom8]
-binding='<Super>F6'
-action='vlc '
-name='vlc'
-
 [custom12]
 binding='<Primary><Alt>w'
 action='subl'
 name='sublime text'
 
-[custom26]
-binding='<Super>F1'
-action='firefox'
-name='firefox'
-
 [custom14]
 binding='<Primary><Alt>g'
 action='gimp'
 name='gimp'
-
-[custom28]
-binding='<Super>F8'
-action='nemo'
-name='nemo'
 
 [custom31]
 binding='<Primary><Alt>c'
