@@ -16,6 +16,7 @@ s0_ground_color2 = #b3b3b300
 s0_initiate_key = <Shift><Control>F12
 
 [ezoom]
+s0_zoom_in_button = <Shift><Alt>Button1
 s0_zoom_box_outline_color = #2f2f4f9f
 s0_zoom_box_fill_color = #2f2f2f4f
 
@@ -37,7 +38,7 @@ s0_outline_color = #e6e6e6ff
 s0_unresponsive_brightness = 70
 
 [core]
-s0_active_plugins = core;composite;opengl;crashhandler;obs;copytex;decor;compiztoolbox;firepaint;resize;imgjpeg;fadedesktop;mousepoll;commands;staticswitcher;move;regex;animation;matecompat;imgpng;place;grid;thumbnail;notification;wobbly;fade;addhelper;cube;td;opacify;rotate;switcher;cubeaddon;trailfocus;scale;freewins;bench;
+s0_active_plugins = core;composite;opengl;crashhandler;obs;copytex;decor;compiztoolbox;firepaint;resize;imgjpeg;fadedesktop;mousepoll;move;regex;animation;imgpng;place;grid;thumbnail;notification;wobbly;ezoom;staticswitcher;fade;addhelper;cube;td;opacify;rotate;switcher;cubeaddon;trailfocus;scale;freewins;bench;
 s0_outputs = 1920x1080+0+0;
 s0_autoraise_delay = 500
 s0_focus_prevention_match = !(class=Polkit-gnome-authentication-agent-1) & !(class=MintMenu.py)
@@ -82,8 +83,9 @@ s0_cross_line_color = #1800ffff
 s0_toggle = <Alt>w
 
 [addhelper]
-s0_brightness = 20
-s0_opacity = 90
+s0_toggle_key = <Shift><Control>p
+s0_brightness = 66
+s0_saturation = 66
 
 [cube]
 s0_multioutput_mode = 2
