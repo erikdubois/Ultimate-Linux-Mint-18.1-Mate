@@ -17,9 +17,9 @@ echo "#########          Installing bookmarks         ################"
 echo "################################################################"
 
 
-cp settings/root/.gtk-bookmarks ~/
+cp settings/bookmarks/.gtk-bookmarks ~/
 
 
 echo "################################################################"
-echo "#########       personal settings installed     ################"
+echo "#########       personal bookmarks installed     ################"
 echo "################################################################"
